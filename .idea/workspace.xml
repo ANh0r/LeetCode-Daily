@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.11 Unzipped.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.12 deepCopy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.12 max69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.12 singleNum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8.11 Unzipped">
+  <component name="RunManager" selected="Python.8.12 max69">
     <configuration name="8.10 twoSUm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.9 goodPair" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.12 max69" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +99,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.9 goodPair.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.12 max69.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8.12 max69" />
         <item itemvalue="Python.8.11 Unzipped" />
         <item itemvalue="Python.8.10 twoSUm" />
         <item itemvalue="Python.8.9 sortBinary" />
         <item itemvalue="Python.8.9 reArrangeArray" />
-        <item itemvalue="Python.8.9 goodPair" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,7 @@
       <workItem from="1596962103356" duration="1974000" />
       <workItem from="1597025617884" duration="1989000" />
       <workItem from="1597121612911" duration="330000" />
-      <workItem from="1597149071981" duration="1036000" />
+      <workItem from="1597149071981" duration="2214000" />
     </task>
     <servers />
   </component>
@@ -208,40 +210,40 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.23.1752.1097@40.23.1752.1097" timestamp="1595727833687" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1597150062574">
-      <screen x="35" y="23" width="1757" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1597162574729">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.bottom/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/35.23.1757.1097@35.23.1757.1097" timestamp="1597150062574" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
-    <state width="1710" height="373" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1597034319811" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1597162574729" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1597150062573">
-      <screen x="35" y="23" width="1757" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1597162574729">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.center/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/35.23.1757.1097@35.23.1757.1097" timestamp="1597150062573" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
-    <state width="1710" height="373" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1597034319811" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1597162574729" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.center/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1597150062572">
-      <screen x="35" y="23" width="1757" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1597162574728">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.left/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/35.23.1757.1097@35.23.1757.1097" timestamp="1597150062572" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952768" />
-    <state width="1710" height="373" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1597034319810" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1597162574728" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381131" />
     <state width="1711" height="341" key="GridCell.Tab.0.left/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1597150062573">
-      <screen x="35" y="23" width="1757" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1597162574729">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.right/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/35.23.1757.1097@35.23.1757.1097" timestamp="1597150062573" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
-    <state width="1710" height="373" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1597034319811" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1597162574729" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.right/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
     <state width="1710" height="373" key="GridCell.Tab.1.bottom" timestamp="1597034319812">
@@ -312,7 +314,8 @@
     <SUITE FILE_PATH="coverage/Codes$8_7_CounterStr.coverage" NAME="8.7 CounterStr Coverage Results" MODIFIED="1596777298453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$TwoSum_7_26.coverage" NAME="TwoSum 7.26 Coverage Results" MODIFIED="1595814329997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_5_uniqueEaddress.coverage" NAME="8.5 uniqueEaddress Coverage Results" MODIFIED="1596594758774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Codes$8_11_Unzipped.coverage" NAME="8.11 Unzipped Coverage Results" MODIFIED="1597150062567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Codes$8_12_max69.coverage" NAME="8.12 max69 Coverage Results" MODIFIED="1597161641691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Codes$8_11_Unzipped.coverage" NAME="8.11 Unzipped Coverage Results" MODIFIED="1597161623054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$generate_data.coverage" NAME="generate_data Coverage Results" MODIFIED="1592827180849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VOCdevkit2007" />
     <SUITE FILE_PATH="coverage/Codes$8_8_KlengthApart.coverage" NAME="8.8 KlengthApart Coverage Results" MODIFIED="1596874502341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$7_29_Stock.coverage" NAME="7.29 Stock Coverage Results" MODIFIED="1595989219016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
