@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.10  fib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.10 AsimplybutRepeatNum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.10 twoSUm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.11 DailySurroundX.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +194,7 @@
       <workItem from="1596795943080" duration="4350000" />
       <workItem from="1596962103356" duration="1974000" />
       <workItem from="1597025617884" duration="1989000" />
+      <workItem from="1597121612911" duration="142000" />
     </task>
     <servers />
   </component>
