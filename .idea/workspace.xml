@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.15 arrayPairNum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.15 maxDepthNtreee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.15 magicDic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.16 BFSemployee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.16 imageBFS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.16 imageDFSdaily.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,29 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8.14 validiis">
-    <configuration name="8.12 max69" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Codes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.12 max69.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.8.16 BFSemployee">
     <configuration name="8.13 dailyStrMulti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,13 +131,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="8.16 BFSemployee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.16 BFSemployee.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8.16 BFSemployee" />
         <item itemvalue="Python.8.14 validiis" />
         <item itemvalue="Python.8.14 takeCoins" />
         <item itemvalue="Python.8.13 dailyStrMulti" />
         <item itemvalue="Python.8.13 strAd" />
-        <item itemvalue="Python.8.12 max69" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,7 @@
       <workItem from="1597149071981" duration="2214000" />
       <workItem from="1597198692238" duration="327000" />
       <workItem from="1597250540645" duration="800000" />
-      <workItem from="1597331305258" duration="2730000" />
+      <workItem from="1597331305258" duration="4099000" />
     </task>
     <servers />
   </component>
@@ -208,43 +210,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="615" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597545968909">
+      <screen x="35" y="23" width="1757" height="1097" />
+    </state>
+    <state x="615" y="381" key="#com.intellij.fileTypes.FileTypeChooser/35.23.1757.1097@35.23.1757.1097" timestamp="1597545968909" />
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595727833687">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.23.1752.1097@40.23.1752.1097" timestamp="1595727833687" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1597334744663">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1597548221309">
+      <screen x="36" y="23" width="1756" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.bottom/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221309" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1597334744663" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1597334744662">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1597548221308">
+      <screen x="36" y="23" width="1756" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.center/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221308" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1597334744662" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.center/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1597334744661">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1597548221307">
+      <screen x="36" y="23" width="1756" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.left/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627798" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952768" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221307" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1597334744661" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381131" />
     <state width="1711" height="341" key="GridCell.Tab.0.left/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1597334744662">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1597548221308">
+      <screen x="36" y="23" width="1756" height="1097" />
     </state>
     <state width="1683" height="294" key="GridCell.Tab.0.right/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1596686952769" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221308" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1597334744662" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1595815381132" />
     <state width="1711" height="341" key="GridCell.Tab.0.right/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
@@ -307,6 +313,7 @@
     <SUITE FILE_PATH="coverage/Codes$7_30__str2int.coverage" NAME="7.30  str2int Coverage Results" MODIFIED="1596093451865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_10_twoSUm.coverage" NAME="8.10 twoSUm Coverage Results" MODIFIED="1597031599056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$7_31_bin2int.coverage" NAME="7.31 bin2int Coverage Results" MODIFIED="1596247435139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Codes$8_16_BFSemployee.coverage" NAME="8.16 BFSemployee Coverage Results" MODIFIED="1597548221301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$123.coverage" NAME="123 Coverage Results" MODIFIED="1595727714879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_9_goodPair.coverage" NAME="8.9 goodPair Coverage Results" MODIFIED="1596962340882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_4_ChangeDate.coverage" NAME="8.4 ChangeDate Coverage Results" MODIFIED="1596511642082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
