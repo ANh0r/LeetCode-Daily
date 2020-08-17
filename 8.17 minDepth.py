@@ -20,7 +20,7 @@ class Solution:
         if not left_h and not right_h:
             return 1
 
-        
+
 '''class Solution:
     def minDepth(self, root: TreeNode) -> int:
         
