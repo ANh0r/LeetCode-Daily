@@ -21,15 +21,33 @@ class Solution:
             return 1
 
 
-'''class Solution:
-    def minDepth(self, root: TreeNode) -> int:
-        
+'''
+def minDepth(self, root: TreeNode) -> int:
         if not root:
             return 0
-        left_min = self.minDepth(root.left)
-        right_min = self.minDepth(root.right)
-        if not root.left or not root.right:
-            return left_min+1 if root.left else right_min +1
         if not root.left and not root.right:
             return 1
-        return min(left_min,right_min) +1'''
+        min_depth = 10**9
+        if root.right:
+            min_depth = min(self.minDepth(root.right),min_depth)
+        if root.left:
+            min_depth = min(self.minDepth(root.left),min_depth)
+        return min_depth+1'''
+'''class Solution:
+    class Solution:
+    def minDepth(self, root: TreeNode) -> int:
+        def helper(root):
+            if not root:
+                return 0
+            else:
+                if root and root.left and root.right:
+                    return min(helper(root.left) + 1, helper(root.right) + 1)
+                elif root and root.left and not root.right:
+                    return helper(root.left) + 1
+                elif root and not root.left and root.right:
+                    return helper(root.right) + 1
+                elif root and not root.left and not root.right:
+                    return 1
+                else:
+                    return 0
+        return helper(root)'''
