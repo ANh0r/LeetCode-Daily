@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8.21 interSect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.22 24Point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.22 permute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.23 bitAndBetween.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.23 count1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.17 minDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.17 minDepth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,51 +40,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8.22 permute">
-    <configuration name="8.14 validiis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Codes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.14 validiis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="8.16 BFSemployee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Codes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.16 BFSemployee.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.8.23 count1">
     <configuration name="8.18 sortedBST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,13 +107,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="8.23 bitAndBetween" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.23 bitAndBetween.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.23 count1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.23 count1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8.23 count1" />
+        <item itemvalue="Python.8.23 bitAndBetween" />
         <item itemvalue="Python.8.22 permute" />
         <item itemvalue="Python.8.21 interSect" />
         <item itemvalue="Python.8.18 sortedBST" />
-        <item itemvalue="Python.8.16 BFSemployee" />
-        <item itemvalue="Python.8.14 validiis" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +203,8 @@
       <workItem from="1597331305258" duration="10012000" />
       <workItem from="1597762075330" duration="1633000" />
       <workItem from="1597974103171" duration="1288000" />
-      <workItem from="1598056495038" duration="1849000" />
+      <workItem from="1598056495038" duration="2372000" />
+      <workItem from="1598141873818" duration="1317000" />
     </task>
     <servers />
   </component>
@@ -222,45 +221,45 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.23.1752.1097@40.23.1752.1097" timestamp="1595727833687" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1598058586235">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom" timestamp="1598143296458">
+      <screen x="38" y="23" width="1754" height="1097" />
     </state>
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380360" />
     <state width="1683" height="294" key="GridCell.Tab.0.bottom/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221309" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1598058586235" />
-    <state width="1710" height="341" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1597974405666" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1598142406442" />
+    <state width="1710" height="341" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1598143296458" />
     <state width="1711" height="341" key="GridCell.Tab.0.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1598058586234">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center" timestamp="1598143296457">
+      <screen x="38" y="23" width="1754" height="1097" />
     </state>
     <state width="1710" height="341" key="GridCell.Tab.0.center/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380359" />
     <state width="1683" height="294" key="GridCell.Tab.0.center/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221308" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1598058586234" />
-    <state width="1710" height="341" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1597974405665" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1598142406441" />
+    <state width="1710" height="341" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1598143296457" />
     <state width="1711" height="341" key="GridCell.Tab.0.center/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1598058586233">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left" timestamp="1598143296457">
+      <screen x="38" y="23" width="1754" height="1097" />
     </state>
     <state width="1710" height="341" key="GridCell.Tab.0.left/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380358" />
     <state width="1683" height="294" key="GridCell.Tab.0.left/35.23.1725.967@35.23.1725.967" timestamp="1592829355376" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627798" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221307" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1598058586233" />
-    <state width="1710" height="341" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1597974405665" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1598142406441" />
+    <state width="1710" height="341" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1598143296457" />
     <state width="1711" height="341" key="GridCell.Tab.0.left/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714889" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1598058586234">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right" timestamp="1598143296458">
+      <screen x="38" y="23" width="1754" height="1097" />
     </state>
     <state width="1710" height="341" key="GridCell.Tab.0.right/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380359" />
     <state width="1683" height="294" key="GridCell.Tab.0.right/35.23.1725.967@35.23.1725.967" timestamp="1592829355377" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1597548221308" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1598058586234" />
-    <state width="1710" height="341" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1597974405666" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1598142406442" />
+    <state width="1710" height="341" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1598143296458" />
     <state width="1711" height="341" key="GridCell.Tab.0.right/39.23.1753.1097@39.23.1753.1097" timestamp="1595727714890" />
     <state width="1710" height="373" key="GridCell.Tab.1.bottom" timestamp="1597034319812">
       <screen x="37" y="23" width="1755" height="1097" />
@@ -287,14 +286,14 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="585" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1598056495300">
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1598141874093">
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="573" y="339" key="com.intellij.ide.util.TipDialog/34.23.1726.967@34.23.1726.967" timestamp="1593186864320" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1596962105970" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/36.23.1756.1097@36.23.1756.1097" timestamp="1596678155755" />
-    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1598056495300" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1598141874093" />
     <state x="587" y="381" key="com.intellij.ide.util.TipDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1595726067770" />
   </component>
   <component name="XDebuggerManager">
@@ -334,6 +333,7 @@
     <SUITE FILE_PATH="coverage/Codes$8_18_sortedBST.coverage" NAME="8.18 sortedBST Coverage Results" MODIFIED="1597717380353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_5_uniqueEaddress.coverage" NAME="8.5 uniqueEaddress Coverage Results" MODIFIED="1596594758774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_12_max69.coverage" NAME="8.12 max69 Coverage Results" MODIFIED="1597161641691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Codes$8_23_bitAndBetween.coverage" NAME="8.23 bitAndBetween Coverage Results" MODIFIED="1598142406434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_11_Unzipped.coverage" NAME="8.11 Unzipped Coverage Results" MODIFIED="1597161623054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_22_permute.coverage" NAME="8.22 permute Coverage Results" MODIFIED="1598058586227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$generate_data.coverage" NAME="generate_data Coverage Results" MODIFIED="1592827180849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VOCdevkit2007" />
@@ -344,5 +344,6 @@
     <SUITE FILE_PATH="coverage/Codes$8_13_dailyStrMulti.coverage" NAME="8.13 dailyStrMulti Coverage Results" MODIFIED="1597251569653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$7_29_Stock.coverage" NAME="7.29 Stock Coverage Results" MODIFIED="1595989219016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$7_30__minin2List.coverage" NAME="7.30  minin2List Coverage Results" MODIFIED="1596090172447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Codes$8_23_count1.coverage" NAME="8.23 count1 Coverage Results" MODIFIED="1598143296451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
