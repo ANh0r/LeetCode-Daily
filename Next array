@@ -1,0 +1,204 @@
+一. 理解字符串的next数组值
+next数组值的概念涉及到字符串匹配的问题，比较抽象，先介绍一些预备知识：
+
+1. 主串和模式串
+       例如我们想知道一个字符串是否包含另一个字符串时，如串S="bbc abcdab abcdabcdabde"中是否包含串s="abcdab"，那么S称为主串，s称为模式串。解决这个字符串匹配问题的算法就是KMP算法。KMP算法与next数组关系密切。有关KMP算法：KMP算法链接。
+
+1.1 字符串的前缀和后缀
+给定字符串"bread",
+
+         前缀：是指除最后一个字符外，剩余字符的全部头部组合。"b,br,bre,brea",共有四个元素。
+
+         后缀：是指除第一个字符外，剩余字符的全部尾部组合。"read,ead,ad,d"，共有四个元素。
+
+1.2 字符串的前缀和后缀的最大长度
+  含义：前缀和后缀相同元素的最大长度。举例说明如下：
+
+以变量S表示ABCDAB,下面是S的各个子串
+
+ A：前缀和后缀都是空集，没有相同元素，长度为0
+
+ AB：前缀[A],后缀是[B],没有相同元素，长度为0
+
+ ABC:前缀是[A, AB],后缀是[BC, B]，长度为0
+
+ABCD:前缀是[A, AB, ABC],后缀是[BCD, CD, D]，没有相同元素，长度为0
+
+ABCDA:前缀是[A, AB, ABC,ABCD],后缀是[BCDA, CDA, DA, A]，共同元素是[A],长度为1
+
+ABCDAB:前缀是[A, AB, ABC,ABCD, ABCDA],后缀是[BCDAB, CDAB, DAB, AB, B]，共同元素是[AB],长度为2
+
+因此，字符串变量S前缀和后缀的最大长度=2
+
+2. next[j]=k数组
+       利用KMP算法将模式串从第一个位置开始自坐向右移动逐个匹配主串时，当模式串第j个字符与主串第i个字符失配，为了提高匹配效率，避免回溯，将模式串在失配位置向右移动j-next[j]位，再继续匹配，j叫做已匹配值（0<=j<len(s)）。
+
+       next[j] = k的含义是模式串在第j个字符失配时（对应着主串第i个字符），将模式串中第k个字符与主串的第i个字符对齐之后，再进行匹配。注意以下几点：
+
+这里所说字符串的第j个字符是指的第j+1个位置，即默认第0个字符对应第1位，j最大值比模式串长度要小1；
+next[j]的值仅对模式串而言，它等于前j位（第0到第j-1个字符）组成的子符串所对应前缀和后缀的最大长度
+next数组有默认是next[0]=-1开头，也有next[0]=0开头，后者只需要将以-1开头的next每个元素加1即可；
+以下是以next=-1开头讨论，举例说明
+
+
+
+        如上图所示，此时在第j位字符D出现失配，j=6，已匹配值m=6，找对应前6位的模式子串（第0到第5个字符）,取每一个子串前缀后缀的最大长度作为整个子串的最大长度，结果为2；所以，第j位D对应的next[j]=2，模式串向右移动6-2=4位，或者说是将第next[j]个字符（对应字符C）与失配位置对齐后，然后再进行匹配，如下图所示：
+
+
+3. 最大长度与next数组的关系
+next 数组
+pattern	A	B	C	D	A	B	D
+j	0	1	2	3	4	5	6
+最大长度	0	0	0	0	1	2	0
+next[j](-1开头)	-1	0	0	0	0	1	2
+next[j](0开头)	0	1	1	1	1	2	3
+二. 手动求模式串的next数组
+1. s="aaab" 对应的next值为{-1,0,1,2}或者分别加1为{0,1,2,3}，解释如下：
+
+第一位默认为0，next[0]=-1
+
+第二位，前面的子串只有a，前缀和后缀为空集，最大长度=0，nex[1]=0
+
+第三位，子串[a,aa],a的子串长度为0，aa的前缀和后缀共有的元素"a",长度=1，next[2]=1
+
+第四位，子串[a,aa,aaa],直接算aaa的前缀和后缀的最大长度len("aa")=2,next[3]=2
+
+2.  s="abaabcac"对应的next值为{-1 0 0 1 1 2 0 1} or {0 1 1 2 2 3 1 2}
+
+第一位next[1]=-1
+
+第二位b对应的子串只有a，长度为0，next[2]=0
+
+第三位a对应的子串a，ab，ab的前缀后缀无共有元素，长度为0，next[3]=0
+
+第四位a对应的模式子串，这里直接算aba，aba的前缀后缀共有元素a，长度为1，next[4]=1
+
+第五位b对应的模式子串，直接算abaa，前缀[a,ab,aba],后缀[baa,aa,a],共有元素a，next[5]=1
+
+第六位c对应的子串，直接算abaab，前缀[a,ab,aba,abaa],后缀[baab,aab,ab,b],共有元素ab，长度为2，next[6]=2
+
+第七位a对应的子串，直接算abaabc，其前缀和后缀都没有共有元素，next[7]=0
+
+第八位c对应的子串，直接算abaabca，其前缀和后缀只有共有元素a，next[8]=1
+
+三. C++递归求next数组
+这里的next数组的解法是根据定义求取，仅给出代码不作解释：
+
+#include<iostream>
+#include<string>
+ 
+using namespace std;
+ 
+//get the next array of pattern string
+void getnext(string &p,int next[])
+{
+	int length=p.length();
+	//int next[length];
+	int j=0,k=-1;
+	//初始化next数组第一个值，k表示next数组的值，即失配字符j之前的子串中前缀和后缀最大的长度值
+	next[0]=-1;
+	//计算next[j]
+	while(j<length-1)
+	{	
+		//根据定义：k=next[k],p[k]==p[j]时，next[j+1]=next[k]+1,
+		//且保证p[j+1]!=p[next[j+1]]则匹配成功,否则继续递归寻找
+		if (k==-1 || p[j]==p[k])
+		{
+			j++;
+			k++;
+			if(p[j]!=p[k])//此时j=j+1，k=next[k]+1
+				next[j]=k;
+			else
+				next[j]=next[k];
+		}
+		else
+			k=next[k];
+	}
+	//return next;
+}
+void main()
+{
+	string p="abc";
+	int * next = new int[p.length()];
+	getnext(p, next);
+	for(int i=0;i < p.length(); i++)
+		cout<<p[i]<<'\t'<<next[i]<<endl;
+	delete []next;
+}
+四. KMP算法实现
+直接上代码，返回的是模式串匹配成功时在主串的位置
+
+#include<iostream>
+#include<string>
+ 
+using namespace std;
+ 
+//get the next array of pattern string
+void getnext(string &p,int next[])
+{
+	int length=p.length();
+	//int next[length];
+	int j=0,k=-1;
+	//初始化next数组第一个值，k表示next数组的值，即失配字符j之前的子串中前缀和后缀最大的长度值
+	next[0]=-1;
+	//计算next[j]
+	while(j<length-1)
+	{	
+		//根据定义：k=next[k],p[k]==p[j]时，next[j+1]=next[k]+1,
+		//且保证p[j+1]!=p[next[j+1]]则匹配成功,否则继续递归寻找
+		if (k==-1 || p[j]==p[k])
+		{
+			j++;
+			k++;
+			if(p[j]!=p[k])//此时j=j+1，k=next[k]+1
+				next[j]=k;
+			else
+				next[j]=next[k];
+		}
+		else
+			k=next[k];
+	}
+	//return next;
+}
+ 
+//返回主串中模式串与其匹配成功时第一个字符位置
+int Kmpsearch(string &src,string &p,int k,int next[])
+{
+	
+	//从主串的第k个字符开始搜索，
+	int index_s = k, index_p = 0;
+	int length_s = src.length();
+	int length_p = p.length();
+	
+	while(index_s < length_s && index_p < length_p)
+	{
+		if (index_p == -1 || p[index_p] == src[index_s])
+		{
+			index_s++;
+			index_p++;
+		}
+		//如果index_s != -1,且src[index_s] != p[index_p],即匹配失败，则令index_s保持不变，index_p=next[index_p]；
+		else
+			index_p = next[index_p];
+	}
+	if (index_p==length_p)
+		return index_s-index_p;
+	else
+		return -1;
+}
+ 
+void main()
+{
+	string src="abaacabcd",p="abc";
+	//cout<<"please input two string:"<<endl;
+//	cin>>src;
+	//cin>>p;
+	int k=0;	
+	int * next = new int[p.length()];
+	getnext(p, next);
+	for(int i=0;i < p.length(); i++)
+		cout<<p[i]<<'\t'<<next[i]<<endl;
+	k = Kmpsearch(src,p,k,next);
+	cout<<k<<endl;
+	delete []next;
+}
