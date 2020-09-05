@@ -1,24 +1,24 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+# forDefinition for a binary tree node.
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
-        if not root:
+        if root == None:
             return []
-        if not root.left and not root.right:
-            return [str(root.val)]
-        path = []
-        if root.left:
-            for i in self.binaryTreePaths(root.left):
-                path.append(str(root.val)+'->'+i)
-        if root.right:
-            for i in self.binaryTreePaths(root.right):
-                path.append(str(root.val)+'->'+i)
-        return path
+
+        def dfs(root):
+            if root == None:
+                return []
+            if not root.left and not root.right:
+                return [str(root.val)]
+
+            return [str(root.val) + "->" + i for i in dfs(root.left) + dfs(root.right)]
+
+        return dfs(root)
     '''# Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
