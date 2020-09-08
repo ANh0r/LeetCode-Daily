@@ -1,3 +1,3 @@
-ans = "qwertre"
+ans = []
 
-print(ans[:1:-1])
+print([ans.append(i)] for i in range(4))
