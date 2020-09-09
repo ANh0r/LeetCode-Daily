@@ -1,3 +1,3 @@
 ans = []
 
-print([ans.append(i)] for i in range(4))
+print(int(0xA<<2))
