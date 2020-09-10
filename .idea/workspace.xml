@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.9 Asimply3goodpair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.10 combine2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +224,8 @@
       <workItem from="1599527806993" duration="1229000" />
       <workItem from="1599571597801" duration="1961000" />
       <workItem from="1599610186608" duration="1056000" />
-      <workItem from="1599612057305" duration="58000" />
+      <workItem from="1599612057305" duration="283000" />
+      <workItem from="1599667468634" duration="439000" />
     </task>
     <servers />
   </component>
@@ -319,14 +320,14 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="587" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1599571597838">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1599667468836">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="573" y="339" key="com.intellij.ide.util.TipDialog/34.23.1726.967@34.23.1726.967" timestamp="1593186864320" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1598268554637" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/36.23.1756.1097@36.23.1756.1097" timestamp="1598313321565" />
-    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1598841372315" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1599667468836" />
     <state x="586" y="381" key="com.intellij.ide.util.TipDialog/38.23.1754.1097@38.23.1754.1097" timestamp="1599187653565" />
     <state x="586" y="381" key="com.intellij.ide.util.TipDialog/39.23.1753.1097@39.23.1753.1097" timestamp="1599275313563" />
     <state x="587" y="381" key="com.intellij.ide.util.TipDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1599571597838" />
