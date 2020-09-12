@@ -30,7 +30,7 @@ from typing import List
 
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        if (not candidates):
+        if not candidates:
             return []
         n = len(candidates)
         res = []
@@ -47,7 +47,8 @@ class Solution:
 
         helper(0, [], target)
         return res
-'''candidates.sort()
+'''
+candidates.sort()
 n = len(candidates)
 res = []
 
@@ -61,7 +62,8 @@ def helper(i, tmp_sum, tmp):
     helper(i + 1, tmp_sum, tmp)
 
 helper(0, 0, [])
-return res'''
+return res
+'''
 '''
 def dfs(result,path,cand,cur_target,cur_index):
             path = path.copy()
@@ -84,4 +86,5 @@ def dfs(result,path,cand,cur_target,cur_index):
         path = []
         candidates.sort()
         dfs(res,path,candidates,target,0)
-        return res'''
+        return res
+        '''
