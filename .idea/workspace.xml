@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.12 averageofLevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.13 existWordsDFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.9 combineTarget.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.9 combineTarget.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +242,7 @@
       <workItem from="1599667468634" duration="2149000" />
       <workItem from="1599789719265" duration="156000" />
       <workItem from="1599790275746" duration="131000" />
-      <workItem from="1599874413164" duration="236000" />
+      <workItem from="1599874413164" duration="608000" />
     </task>
     <servers />
   </component>
