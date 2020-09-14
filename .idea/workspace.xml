@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.13 existWordsDFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.14 InorderTraverseBitree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitreeTraverseMethodsConclude" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +243,8 @@
       <workItem from="1599667468634" duration="2149000" />
       <workItem from="1599789719265" duration="156000" />
       <workItem from="1599790275746" duration="131000" />
-      <workItem from="1599874413164" duration="608000" />
+      <workItem from="1599874413164" duration="771000" />
+      <workItem from="1600043647561" duration="153000" />
     </task>
     <servers />
   </component>
@@ -250,11 +252,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="618" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599611468684">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="616" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043687085">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="615" y="381" key="#com.intellij.fileTypes.FileTypeChooser/35.23.1757.1097@35.23.1757.1097" timestamp="1597545968909" />
-    <state x="616" y="381" key="#com.intellij.fileTypes.FileTypeChooser/37.23.1755.1097@37.23.1755.1097" timestamp="1597767277178" />
+    <state x="616" y="381" key="#com.intellij.fileTypes.FileTypeChooser/37.23.1755.1097@37.23.1755.1097" timestamp="1600043687085" />
     <state x="618" y="381" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1599611468684" />
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595727833687">
       <screen x="40" y="23" width="1752" height="1097" />
@@ -337,14 +339,14 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="587" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1599874413208">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1600043648445">
+      <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="573" y="339" key="com.intellij.ide.util.TipDialog/34.23.1726.967@34.23.1726.967" timestamp="1593186864320" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1598268554637" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/36.23.1756.1097@36.23.1756.1097" timestamp="1598313321565" />
-    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1599667468836" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1600043648445" />
     <state x="586" y="381" key="com.intellij.ide.util.TipDialog/38.23.1754.1097@38.23.1754.1097" timestamp="1599187653565" />
     <state x="586" y="381" key="com.intellij.ide.util.TipDialog/39.23.1753.1097@39.23.1753.1097" timestamp="1599275313563" />
     <state x="587" y="381" key="com.intellij.ide.util.TipDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1599874413208" />
