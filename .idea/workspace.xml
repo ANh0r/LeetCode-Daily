@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.16 invertTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PermuteUniqueExplanation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11" beforeDir="false" afterPath="$PROJECT_DIR$/9.18 Permuteque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +248,7 @@
       <workItem from="1600043647561" duration="498000" />
       <workItem from="1600129768674" duration="1103000" />
       <workItem from="1600215914296" duration="969000" />
+      <workItem from="1600313681268" duration="945000" />
     </task>
     <servers />
   </component>
@@ -253,9 +256,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="616" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043687085">
-      <screen x="37" y="23" width="1755" height="1097" />
+    <state x="591" y="366" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600390462329">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
+    <state x="591" y="366" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1050@0.23.1792.1050" timestamp="1600390462329" />
     <state x="615" y="381" key="#com.intellij.fileTypes.FileTypeChooser/35.23.1757.1097@35.23.1757.1097" timestamp="1597545968909" />
     <state x="616" y="381" key="#com.intellij.fileTypes.FileTypeChooser/37.23.1755.1097@37.23.1755.1097" timestamp="1600043687085" />
     <state x="618" y="381" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1599611468684" />

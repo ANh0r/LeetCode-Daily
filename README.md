@@ -1,5 +1,5 @@
 # LeetCode-Daily
-## Here are the LeetCode Daily Querys Update!
+## Here are the LeetCode Daily Queries Update!
 
 Here,you will see :
 
@@ -7,5 +7,5 @@ Here,you will see :
 * Mostly Python
 * Some Methods from the LeetCode
 
-Also, I try to finish the Leetcode AMAP.
+Also, I try to finish the Leet-code AMAP.
 Thank you.
