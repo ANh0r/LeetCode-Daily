@@ -54,6 +54,33 @@ class Solution:
         return root
 
 
+"""
+快一点：
+class Solution:
+    def convertBST(self,root: TreeNode) -> TreeNode:
+        p=root
+        stack=[]
+        value=0
+        while p or stack:
+            while p:
+                stack.append(p)
+                p=p.right
+            p=stack.pop()
+            value+=p.val
+            p.val=value
+            p=p.left
+        return root
+
+        cur, stack, p = 0, [], root
+        while p or stack:
+            while p:
+                stack.append(p)
+                p = p.right
+            p = stack.pop()
+            cur += p.val
+            p.val = cur
+            p = p.left
+        return root"""
 """以右->根->左的顺序遍历二叉树，将遍历顺序的前一个结点的累加值记录起来，和当前结点相加，得到当前结点的累加值。"""
 """今天晚上or明天写一个LeetCode的链表转二叉树的数据结构
 恶心心"""
