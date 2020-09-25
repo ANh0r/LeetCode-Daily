@@ -18,3 +18,29 @@ class Solution:
 链接：https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/si-lu-qing-xi-dai-ma-jian-ji-he-105ti-si-lu-yi-zhi/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"""
+'''class Solution:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        if len(inorder)!=len(postorder) or not inorder or not postorder:
+            return None
+        
+        inorder_dic = {}
+        for i,n in enumerate(inorder):
+            inorder_dic[n] = i
+        
+        return self.build(inorder_dic,0,len(inorder)-1,postorder,0,len(postorder)-1)
+    
+    def build(self,inorder_dic,in_left,in_right,postorder,po_left,po_right):
+        if in_left>in_right or po_left>po_right:
+            return None
+
+        pivot = postorder[po_right]
+        pivot_idx = inorder_dic[pivot]
+
+        root = TreeNode(pivot)
+        #left_size=
+        root.left = self.build(inorder_dic,in_left,pivot_idx-1,
+                               postorder,po_left,po_left+pivot_idx-in_left-1)
+        root.right = self.build(inorder_dic,pivot_idx+1,in_right,
+                                postorder,po_left+pivot_idx-in_left,po_right-1)
+        return root
+'''
