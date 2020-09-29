@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.28 hpbsday connectBTnextRight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.29 postTraverseBT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,6 +263,7 @@
       <workItem from="1601202665911" duration="1030000" />
       <workItem from="1601217705748" duration="3000" />
       <workItem from="1601268849015" duration="342000" />
+      <workItem from="1601341445601" duration="274000" />
     </task>
     <servers />
   </component>
@@ -363,10 +363,10 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1601268849136">
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1601341450576">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1050@0.23.1792.1050" timestamp="1601268849136" />
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1050@0.23.1792.1050" timestamp="1601341450576" />
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="573" y="339" key="com.intellij.ide.util.TipDialog/34.23.1726.967@34.23.1726.967" timestamp="1593186864320" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1598268554637" />
