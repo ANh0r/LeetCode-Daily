@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10.5 fourNUM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.6 HardSumofdisIntree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +272,8 @@
       <workItem from="1601693633705" duration="1726000" />
       <workItem from="1601704173781" duration="318000" />
       <workItem from="1601731246035" duration="575000" />
-      <workItem from="1601828981896" duration="20000" />
+      <workItem from="1601828981896" duration="49000" />
+      <workItem from="1601947696106" duration="60000" />
     </task>
     <servers />
   </component>
@@ -376,10 +377,10 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1601828981861">
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1601947696412">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1049@0.23.1792.1049" timestamp="1601828981861" />
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1049@0.23.1792.1049" timestamp="1601947696412" />
     <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1050@0.23.1792.1050" timestamp="1601441480920" />
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1598268554637" />
