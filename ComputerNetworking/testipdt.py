@@ -2,6 +2,9 @@ import IPy
 
 
 def is_ip(address):
+    if '.' not in address:
+        print("lack of dot '.'")
+        return False
     try:
         IPy.IP(address)
         return True
@@ -26,8 +29,8 @@ def dot2ip(dot :str) -> int :
 
 
 def main():
-    tips = '''Warning: This test just for CORRECT form of IP address and NO DESIGN for validating the format.
-     Please input normal and right input, thank you.'''
+    # tips = '''Warning: This test just for CORRECT form of IP address and NO DESIGN for validating the format.
+    #  Please input normal and right input, thank you.'''
     while 1:
         input_ip = input("Please input the ip address with '.' ")
         # print("*******"+tips+"******\n")
@@ -35,6 +38,9 @@ def main():
             ans = dot2ip(input_ip)
             print(f'{input_ip} dot transfer to ip(unsigned int) is {ans}')
             input2 = int(input("input the uint you got to validate the dot address:"))
+            if input2 > 4294967295 or input2 <= 0:
+                print("input error!\n")
+                continue
             print(f'{input2} is the ip of dot {ip2dot(input2)}')
 
 

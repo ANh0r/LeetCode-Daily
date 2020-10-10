@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd75b59-fc2e-4d61-a599-f54e7bee1494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10.9 hasCycle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.10 detectCycle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.7 sortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.8 sortColors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerNetworking/testipdt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerNetworking/testipdt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.text">
+  <component name="RunManager" selected="Python.testipdt">
     <configuration name="10.4 findNthDIgital" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,10 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testipdt" />
         <item itemvalue="Python.text" />
         <item itemvalue="Python.10.8 sortColors" />
         <item itemvalue="Python.10.4 findNthDIgital" />
-        <item itemvalue="Python.testipdt" />
         <item itemvalue="Python.dot2ip" />
       </list>
     </recent_temporary>
@@ -279,6 +279,8 @@
       <workItem from="1602085889998" duration="192000" />
       <workItem from="1602125900433" duration="359000" />
       <workItem from="1602204841223" duration="550000" />
+      <workItem from="1602244127192" duration="342000" />
+      <workItem from="1602296274972" duration="739000" />
     </task>
     <servers />
   </component>
@@ -297,10 +299,10 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="950" y="449" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/40.23.1752.1097@40.23.1752.1097" timestamp="1595727833687" />
-    <state width="1750" height="466" key="GridCell.Tab.0.bottom" timestamp="1602086092863">
+    <state width="1750" height="466" key="GridCell.Tab.0.bottom" timestamp="1602296538093">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1602086092863" />
+    <state width="1750" height="466" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1602296538093" />
     <state width="1750" height="466" key="GridCell.Tab.0.bottom/0.23.1792.1050@0.23.1792.1050" timestamp="1601382685275" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380360" />
     <state width="1710" height="341" key="GridCell.Tab.0.bottom/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
@@ -311,10 +313,10 @@
     <state width="1708" height="341" key="GridCell.Tab.0.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1599612003499" />
     <state width="1708" height="341" key="GridCell.Tab.0.bottom/41.23.1751.1097@41.23.1751.1097" timestamp="1599529071940" />
     <state width="1708" height="341" key="GridCell.Tab.0.bottom/42.23.1750.1097@42.23.1750.1097" timestamp="1599445938505" />
-    <state width="1750" height="466" key="GridCell.Tab.0.center" timestamp="1602086092862">
+    <state width="1750" height="466" key="GridCell.Tab.0.center" timestamp="1602296538092">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1602086092862" />
+    <state width="1750" height="466" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1602296538092" />
     <state width="1750" height="466" key="GridCell.Tab.0.center/0.23.1792.1050@0.23.1792.1050" timestamp="1601382685274" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380359" />
     <state width="1710" height="341" key="GridCell.Tab.0.center/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
@@ -325,10 +327,10 @@
     <state width="1708" height="341" key="GridCell.Tab.0.center/40.23.1752.1097@40.23.1752.1097" timestamp="1599612003499" />
     <state width="1708" height="341" key="GridCell.Tab.0.center/41.23.1751.1097@41.23.1751.1097" timestamp="1599529071940" />
     <state width="1708" height="341" key="GridCell.Tab.0.center/42.23.1750.1097@42.23.1750.1097" timestamp="1599445938504" />
-    <state width="1750" height="466" key="GridCell.Tab.0.left" timestamp="1602086092862">
+    <state width="1750" height="466" key="GridCell.Tab.0.left" timestamp="1602296538092">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1602086092862" />
+    <state width="1750" height="466" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1602296538092" />
     <state width="1750" height="466" key="GridCell.Tab.0.left/0.23.1792.1050@0.23.1792.1050" timestamp="1601382685274" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380358" />
     <state width="1710" height="341" key="GridCell.Tab.0.left/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627798" />
@@ -339,10 +341,10 @@
     <state width="1708" height="341" key="GridCell.Tab.0.left/40.23.1752.1097@40.23.1752.1097" timestamp="1599612003499" />
     <state width="1708" height="341" key="GridCell.Tab.0.left/41.23.1751.1097@41.23.1751.1097" timestamp="1599529071940" />
     <state width="1708" height="341" key="GridCell.Tab.0.left/42.23.1750.1097@42.23.1750.1097" timestamp="1599445938504" />
-    <state width="1750" height="466" key="GridCell.Tab.0.right" timestamp="1602086092863">
+    <state width="1750" height="466" key="GridCell.Tab.0.right" timestamp="1602296538093">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1602086092863" />
+    <state width="1750" height="466" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1602296538093" />
     <state width="1750" height="466" key="GridCell.Tab.0.right/0.23.1792.1050@0.23.1792.1050" timestamp="1601382685274" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/34.23.1758.1097@34.23.1758.1097" timestamp="1597717380359" />
     <state width="1710" height="341" key="GridCell.Tab.0.right/35.23.1757.1097@35.23.1757.1097" timestamp="1597251627799" />
@@ -382,10 +384,10 @@
       <screen x="37" y="23" width="1755" height="1097" />
     </state>
     <state x="140" y="123" width="1552" height="897" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1596166799677" />
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1602204841435">
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1602296275057">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1049@0.23.1792.1049" timestamp="1602204841435" />
+    <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1049@0.23.1792.1049" timestamp="1602296275057" />
     <state x="559" y="366" key="com.intellij.ide.util.TipDialog/0.23.1792.1050@0.23.1792.1050" timestamp="1601441480920" />
     <state x="570" y="339" key="com.intellij.ide.util.TipDialog/30.23.1730.967@30.23.1730.967" timestamp="1594289928839" />
     <state x="584" y="381" key="com.intellij.ide.util.TipDialog/35.23.1757.1097@35.23.1757.1097" timestamp="1598268554637" />
@@ -420,7 +422,7 @@
     <SUITE FILE_PATH="coverage/Codes$7_27_binary_longest_dis.coverage" NAME="7.27 binary_longest_dis Coverage Results" MODIFIED="1595815381124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$7_30_SameArchString.coverage" NAME="7.30 SameArchString Coverage Results" MODIFIED="1596072967476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_30_reverseWords.coverage" NAME="8.30 reverseWords Coverage Results" MODIFIED="1598750437493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Codes$testipdt.coverage" NAME="testipdt Coverage Results" MODIFIED="1601704202138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComputerNetworking" />
+    <SUITE FILE_PATH="coverage/Codes$testipdt.coverage" NAME="testipdt Coverage Results" MODIFIED="1602296538084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComputerNetworking" />
     <SUITE FILE_PATH="coverage/Codes$8_10_twoSUm.coverage" NAME="8.10 twoSUm Coverage Results" MODIFIED="1597031599056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$8_30_FindUnsortSubarray.coverage" NAME="8.30 FindUnsortSubarray Coverage Results" MODIFIED="1598753323939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Codes$9_8_combine.coverage" NAME="9.8 combine Coverage Results" MODIFIED="1599495014431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
