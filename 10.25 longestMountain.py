@@ -19,6 +19,7 @@ res：记录山脉的最大长度
 时间复杂度：O(N)
 空间复杂度：O(N)
 代码"""
+from typing import List
 
 
 class Solution:
