@@ -13,7 +13,7 @@ for i in range(len(ring)):
 
 # 从一个字符串到另一字符串最少旋转的步数
 def cal_steps(cur, nxt):
-    return min(tmp: = abs(steps[cur] - steps[nxt]), len(ring) - tmp)
+    # return min(tmp: = abs(steps[cur] - steps[nxt]), len(ring) - tmp)
 
     @functools.lru_cache(None)
     def dfs(cur, k):
