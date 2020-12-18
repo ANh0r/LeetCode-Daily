@@ -17,4 +17,4 @@ class Solution:
 
 
 t = Solution()
-print(t.fizzBuzz(15))
+print(t.fizzBuzz(15)fizz)
