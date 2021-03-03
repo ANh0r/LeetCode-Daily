@@ -10,3 +10,7 @@ class NumArray:
     def sumRange(self, i: int, j: int) -> int:
         _sums = self.sums
         return _sums[j + 1] - _sums[i]
+
+"""
+w
+"""
