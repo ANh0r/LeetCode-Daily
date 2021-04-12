@@ -72,3 +72,20 @@ private:
         return compare1 > compare2;
     }
 };*/
+/*from functools import cmp_to_key
+
+
+def largestNumber(nums):
+    nums.sort(key=cmp_to_key(compare), reverse=True)
+    ans = ''.join([str(num) for num in nums])
+    return str(int(ans))
+
+def compare(x,y):
+    x, y = str(x), str(y)
+    if int(x+y)<int(y+x):
+        return -1
+    elif int(x+y)>int(y+x):
+        return 1
+    else:
+        return 0
+        */
