@@ -73,6 +73,7 @@ class Solution:
             },
         }
 
+
         st = State.STATE_INITIAL
         for ch in s:
             typ = toChartype(ch)
