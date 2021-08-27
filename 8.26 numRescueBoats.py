@@ -1,5 +1,6 @@
-class Solution:
-    def numRescueBoats(self, people: List[int], limit: int) -> int:dist = {}
+from typing import List
+
+"""def numRescueBoats(self, people: List[int], limit: int) -> int:dist = {}
         for num in people:
             if num not in dist:
                 dist[num] = 1
@@ -19,3 +20,5 @@ class Solution:
                     break
             res += 1
         return res
+"""
+
