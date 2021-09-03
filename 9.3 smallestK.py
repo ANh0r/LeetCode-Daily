@@ -20,3 +20,6 @@ class Solution:
                 qs(left,i-1)
         qs(0,len(arr)-1)
         return arr[:k]
+    """
+    是这样的
+    """
